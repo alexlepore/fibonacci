@@ -38,9 +38,9 @@ void original()
     for(i = 0; i < 15; i++)
     {
         printf("%d, ", t1);
+        sum = t1 + t2;
         t1 = t2;
         t2 = sum;
-        sum = t1 + t2;
     }
 
     return 0;
@@ -57,9 +57,9 @@ void computerGenerated(int num)
     for(i = 0; i < 15; i++)
     {
         printf("%d, ", t1);
+        sum = t1 + t2;
         t1 = t2;
         t2 = sum;
-        sum = t1 + t2;
     }
 
     return 0;
